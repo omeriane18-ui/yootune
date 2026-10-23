@@ -1,7 +1,7 @@
 // إعدادات موقع BILAL — عدّل هذا الملف فقط
 window.BILAL = {
   // مفتاح YouTube Data API v3 (قيّده على نطاق موقعك من Google Cloud)
-  API_KEY: "ضع_مفتاح_API_هنا",
+  API_KEY: "AIzaSyCCVPmvaapoVuF5AfnhoQDThVaPG35MKXo",
   REGION: "DZ",          // بلد الرائج
   CACHE_HOURS: 12,       // مدة حفظ النتائج لتوفير الحصة
   // الصفوف: chart = رائج (1 وحدة) | playlistId = قائمة تشغيل (1 وحدة) | query = بحث (100 وحدة)
