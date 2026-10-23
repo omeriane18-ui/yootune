@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BILAL — شاهد بلا حدود</title>
+<meta name="description" content="BILAL منصة مشاهدة بتصميم سينمائي.">
+<meta name="theme-color" content="#0a0a0f">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230a0a0f'/><text x='50' y='72' font-size='64' font-weight='900' text-anchor='middle' fill='%23e8b04a' font-family='sans-serif'>B</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav id="nav">
+  <a class="logo" href="./" aria-label="BILAL">BILAL</a>
+  <div class="links">
+    <a href="./" class="on">الرئيسية</a>
+    <a href="#mylist-row" id="to-list">قائمتي</a>
+  </div>
+  <form id="sf" role="search">
+    <input id="q" type="search" placeholder="ابحث عن أي شيء" aria-label="بحث">
+  </form>
+</nav>
+
+<header id="hero" aria-live="polite"></header>
+<main id="rows"></main>
+<section id="results" hidden></section>
+<p id="msg" role="status"></p>
+<footer>BILAL © <span id="y"></span> — المحتوى مقدَّم من يوتيوب</footer>
+
+<dialog id="modal" aria-label="مشغل الفيديو">
+  <div class="player" id="player"></div>
+  <div class="mi">
+    <div>
+      <h3 id="mt"></h3>
+      <p class="ch" id="mc"></p>
+      <p class="ds" id="md"></p>
+    </div>
+    <div class="acts">
+      <button class="btn ghost" id="fav"></button>
+      <button class="btn ghost" id="x">إغلاق</button>
+    </div>
+  </div>
+</dialog>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
